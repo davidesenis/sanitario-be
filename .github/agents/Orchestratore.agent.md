@@ -58,6 +58,7 @@ Paziente ──< Prenotazione    (un paziente può avere più prenotazioni)
 | Agente | File | Quando usarlo |
 |--------|------|---------------|
 | Orchestratore | `Orchestratore.agent.md` | Coordinamento generale e pianificazione |
+| TaskManager | `TaskManager.agent.md` | Gestire task da GitHub issues e delegare agli agenti |
 | EntityRepository | `EntityRepository.agent.md` | Creare entità JPA e repository |
 | ServiceLayer | `ServiceLayer.agent.md` | Logica di business e service layer |
 | Controller | `Controller.agent.md` | Esporre endpoint REST con Swagger |
