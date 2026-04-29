@@ -57,9 +57,10 @@ Paziente ──< Prenotazione    (un paziente può avere più prenotazioni)
 
 | Agente | File | Quando usarlo |
 |--------|------|---------------|
-| Entity & Repository | `entity-repository.md` | Creare entità JPA e repository |
-| Service Layer | `service-layer.md` | Logica di business e gestione prenotazioni |
-| Controller | `controller.md` | Esporre endpoint REST con Swagger |
+| Orchestratore | `Orchestratore.agent.md` | Coordinamento generale e pianificazione |
+| EntityRepository | `EntityRepository.agent.md` | Creare entità JPA e repository |
+| ServiceLayer | `ServiceLayer.agent.md` | Logica di business e service layer |
+| Controller | `Controller.agent.md` | Esporre endpoint REST con Swagger |
 
 ---
 
@@ -107,10 +108,18 @@ src/
 ## Ordine di Sviluppo Consigliato
 
 ```
-1. Entity & Repository  → definisci il modello dati
-2. Service Layer        → implementa la logica di prenotazione
-3. Controller           → esponi le API
+1. EntityRepository     → definisci il modello dati (entity + repository + DTO + mapper)
+2. ServiceLayer         → implementa la logica di business
+3. Controller           → esponi le API REST con Swagger
 ```
+
+### Flusso di Lavoro
+
+1. **Richiedi EntityRepository** quando serve creare nuove entità o repository
+2. **Richiedi ServiceLayer** quando serve implementare la logica di business
+3. **Richiedi Controller** quando serve esporre API REST
+
+Ogni agente è indipendente e scalabile: possono essere modificati in futuro senza impattare gli altri.
 
 ---
 
