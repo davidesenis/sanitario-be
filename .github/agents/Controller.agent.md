@@ -5,6 +5,12 @@ description: "Use when: creare controller REST con Swagger/OpenAPI per il sistem
 
 # 🎮 Controller Agent
 
+## Nota
+
+Questo agente deve seguire la politica centrale condivisa: `.github/agents/AGENT_POLICY.md`.
+
+---
+
 ## Contesto
 
 Questo agente è specializzato nella creazione di **controller REST** con documentazione **Swagger/OpenAPI** per il sistema di prenotazioni sanitarie Spring Boot.

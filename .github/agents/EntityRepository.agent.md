@@ -5,6 +5,12 @@ description: "Use when: creare entità JPA e repository per il sistema di prenot
 
 # 🏗️ Entity & Repository Agent
 
+## Nota
+
+Questo agente deve seguire la politica centrale condivisa: `.github/agents/AGENT_POLICY.md`.
+
+---
+
 ## Contesto
 
 Questo agente è specializzato nella creazione di **entità JPA** e **repository** per il sistema di prenotazioni sanitarie Spring Boot.

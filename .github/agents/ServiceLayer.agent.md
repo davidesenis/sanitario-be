@@ -5,6 +5,12 @@ description: "Use when: implementare la logica di business e i service layer per
 
 # 🧩 Service Layer Agent
 
+## Nota
+
+Questo agente deve seguire la politica centrale condivisa: `.github/agents/AGENT_POLICY.md`.
+
+---
+
 ## Contesto
 
 Questo agente è specializzato nella creazione dei **service layer** che contengono la logica di business per il sistema di prenotazioni sanitarie Spring Boot.

@@ -5,6 +5,14 @@ description: "Use when: gestire task da GitHub issues e delegare agli agenti di 
 
 # 📋 Task Manager
 
+## ⚠️ VINCOLO IMPERATIVO
+
+Questo repository usa una politica centrale per tutti gli agenti: `.github/agents/AGENT_POLICY.md`.
+
+Vedi quel file per le regole obbligatorie che si applicano a tutti gli agenti esistenti e futuri.
+
+---
+
 ## Contesto
 
 Questo agente gestisce le task provenienti dalle issue GitHub del repository `davidesenis/sanitario-be`. Quando l'utente dice "Svolgi task #n", questo agente:

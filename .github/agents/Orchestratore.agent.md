@@ -1,5 +1,13 @@
 # 🎯 Orchestratore — Sistema di Prenotazioni Sanitarie
 
+## ⚠️ VINCOLO IMPERATIVO
+
+Questo repository usa una politica centrale per tutti gli agenti: `.github/agents/AGENT_POLICY.md`.
+
+Vedi quel file per le regole obbligatorie che si applicano a tutti gli agenti esistenti e futuri.
+
+---
+
 ## Contesto del Progetto
 
 Applicazione backend **Spring Boot 4.0.6 / Java 17** per la **gestione delle prenotazioni in ambito sanitario**.
